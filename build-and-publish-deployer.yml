@@ -7,7 +7,7 @@ on:
         description: Force Docker/package push even on a non-main branch
         type: boolean
         required: false
-        default: 'false'
+        default: 'true'
   push:
     branches: [ 'main' ]
     paths:
